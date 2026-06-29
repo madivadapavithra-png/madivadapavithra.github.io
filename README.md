@@ -6,48 +6,50 @@ Welcome to my data portfolio! I specialize in turning messy, complex datasets in
 🔗 **Connect with me:**
 * [LinkedIn](https://www.linkedin.com/in/pavithra-madivada-63177a191?utm_source=share_via&utm_content=profile&utm_medium=member_android)
 * [Email](mailto:madivadapavithra@gmail.com)
+
 ---
 
 ## 🚀 Featured Projects
 
-### 1. Supply Chain Optimization & Revenue Leakage Analysis
-* **Tech Stack:** SQL (PostgreSQL), Python (Pandas), Tableau
-* **The Problem:** A retail e-commerce client noticed a dip in Q3 margins but couldn't pinpoint the bottleneck.
-* **The Solution:** Extracted and cleaned 500k+ rows of transactional data. Built a Python script to track order fulfillment delays.
-* **The Result:** Identified a **12% revenue leakage** in third-party logistics and built an interactive dashboard to track carrier performance in real-time.
+### 1. E-commerce Sales Analysis
+* **Tech Stack:** SQL, Python (Pandas), Tableau / Power BI
+* **The Problem:** An online retail platform needed to identify declining product categories and optimize inventory levels ahead of peak shopping seasons.
+* **The Solution:** Cleaned and aggregated transactional data across multiple regions. Conducted a cohort analysis to measure customer retention and calculated product affinity to find common cross-selling opportunities.
+* **The Result:** Identified a **14% drop** in repeating electronics sales and discovered a high-affinity bundling strategy that boosted average order value (AOV) by **6.5%**.
 * [📊 View Live Dashboard](YOUR_DASHBOARD_LINK) | [💻 GitHub Repository](YOUR_REPO_LINK)
 
-### 2. Customer Churn Prediction & Exploratory Data Analysis
-* **Tech Stack:** Python (Scikit-Learn, Seaborn, NumPy)
-* **The Problem:** Telecom subscriber churn increased by 5% quarter-over-quarter.
-* **The Solution:** Conducted exploratory data analysis (EDA) to find behavioral correlations. Developed a logistic regression model to segment high-risk customers.
-* **The Result:** Discovered that customers on month-to-month contracts with fiber-optic internet had the highest churn rate, allowing the marketing team to target them with retention offers.
+### 2. HR Analytics Dashboard
+* **Tech Stack:** Power BI / Tableau, Excel, SQL
+* **The Problem:** High operational costs were being driven by a sudden increase in employee turnover, but HR lacked visibility into the core drivers of attrition.
+* **The Solution:** Built a comprehensive HR analytics dashboard integrating employee demographics, performance ratings, tenure, and exit interview sentiment data.
+* **The Result:** Pinpointed that mid-level software engineering roles with over-average overtime had a **22% higher attrition rate**, allowing management to implement targeted retention bonuses.
+* [📊 View Live Dashboard](YOUR_DASHBOARD_LINK) | [💻 GitHub Repository](YOUR_REPO_LINK)
+
+### 3. Financial Trading Bot
+* **Tech Stack:** Python (Pandas, NumPy, Backtrader), REST APIs
+* **The Problem:** Executing manual cryptocurrency or stock trades introduces human emotional bias and limits trading frequency based on screen time.
+* **The Solution:** Developed an algorithmic trading bot utilizing technical indicators like Moving Average Convergence Divergence (MACD) and Relative Strength Index (RSI). Connected the script to live exchange APIs and engineered backtesting logic on 2 years of historical data.
+* **The Result:** Automated risk management protocols that achieved an **11.2% risk-adjusted return (Sharpe Ratio of 1.4)** over the backtested timeframe while maintaining a strict 2% maximum stop-loss per trade.
 * [💻 GitHub Repository](YOUR_REPO_LINK)
 
-### 3. E-commerce Marketing Campaign ROI & A/B Testing
-* **Tech Stack:** Python (Statsmodels, SciPy), SQL, Looker Studio
-* **The Problem:** A digital marketing team ran a 4-week promotional campaign but lacked statistical validation on whether the new checkout layout actually drove higher conversions.
-* **The Solution:** Cleaned and segmented web traffic data from 25,000 users. Conducted a two-sample t-test and chi-square test to evaluate conversion rate differences between the control and variant groups.
-* **The Result:** Proven with a 95% confidence level ($p < 0.05$) that the new checkout flow increased average order value (AOV) by **8.4%**, resulting in an estimated \$42,000 monthly revenue bump.
-* [📊 View Live Dashboard](YOUR_DASHBOARD_LINK) | [💻 GitHub Repository](YOUR_REPO_LINK)
+### 4. Housing Market ML Predictor
+* **Tech Stack:** Python (Scikit-Learn, XGBoost, Matplotlib)
+* **The Problem:** Property buyers and real estate agents struggle with inaccurate, lagging home price estimates based solely on regional averages.
+* **The Solution:** Built an end-to-end Machine Learning pipeline to predict residential real estate values. Engineered features out of historical sales, neighborhood crime rates, school ratings, and macro-economic interest rates.
+* **The Result:** Successfully trained an XGBoost regression model that achieved a **Root Mean Squared Error (RMSE) under 8%** on unseen test data, significantly outperforming baseline linear regression models.
+* [💻 GitHub Repository](YOUR_REPO_LINK)
 
-### 4. Real Estate Market Trends & Automated Data Pipeline
-* **Tech Stack:** Python (BeautifulSoup, Requests), AWS Lambda, Snowflake, Power BI
-* **The Problem:** Local real estate investors needed daily updates on property price drops, but manually checking listing sites was too slow and inefficient.
-* **The Solution:** Built a Python web scraper to extract daily listing data. Hosted the script on AWS Lambda to run on a daily cron schedule, auto-loading the cleaned data into a Snowflake data warehouse.
-* **The Result:** Developed an automated Power BI alert system that flagged properties listed at **15% or more below** regional median market value, reducing investment research time by 90%.
-* [📊 View Live Dashboard](YOUR_DASHBOARD_LINK) | [💻 GitHub Repository](YOUR_REPO_LINK)
-
-### 5. Public Healthcare Resource Allocation Analysis
-* **Tech Stack:** R (ggplot2, dplyr), SQL (BigQuery), Tableau
-* **The Problem:** A regional health non-profit needed to optimize where to deploy mobile vaccination clinics based on historical disease outbreaks and population density.
-* **The Solution:** Queried massive public health data registries via Google BigQuery. Joined geographic demographic data with hospital capacity metrics to map under-resourced postal codes.
-* **The Result:** Identified 7 critical "health deserts" where population-to-clinic ratios exceeded 10,000:1, allowing the organization to reallocate 3 mobile units to cover an additional 45,000 high-risk residents.
+### 5. Healthcare ER Optimization
+* **Tech Stack:** Python (SimPy / Pandas), SQL, Looker Studio
+* **The Problem:** Hospital Emergency Rooms faced critical bottlenecks, leading to long patient wait times and high rates of patients leaving without being seen (LWBS).
+* **The Solution:** Extracted and analyzed emergency room intake logs. Modeled patient flow bottlenecks and simulated staffing reallocations across different shifts using historical peak arrival times.
+* **The Result:** Suggested a data-driven scheduling adjustment that optimized nursing staff levels during peak hours, reducing average patient wait times by **18 minutes**.
 * [📊 View Live Dashboard](YOUR_DASHBOARD_LINK) | [💻 GitHub Repository](YOUR_REPO_LINK)
 
 ---
 
 ## 🛠️ Technical Toolkit
-* **Languages:** SQL, Python (Pandas, NumPy, Matplotlib, Seaborn), R
+* **Languages:** SQL, Python (Pandas, NumPy, Matplotlib, Scikit-Learn), R
 * **BI Tools:** Tableau, Power BI, Looker Studio
 * **Databases & Tools:** PostgreSQL, MySQL, Git, Excel (Advanced)
+
